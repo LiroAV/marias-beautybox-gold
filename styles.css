@@ -1,8 +1,8 @@
 /*
-#FAF8F1
-#FAEAB1
-#E5BA73
-#CA945
+
+#D3B95D
+#FCF5ED
+#ffffff
 */
 *{
     margin: 0;
@@ -15,7 +15,7 @@ a,p{
 }
 /* nav */
 nav{
-    background-color:#FAF8F1;
+    background-color:#FCF5ED;
     padding: 8px 0;
 }
 .nav-container{
@@ -42,7 +42,7 @@ nav{
 }
 .nav-center a:hover{
     margin-top: 13px;
-    border-bottom: solid 3px #CA9451;
+    border-bottom: solid 3px #D3B95D;
     padding-bottom: 10px;
 }
 .nav-right{
@@ -53,13 +53,13 @@ nav{
     font-family: Noto Sans JP;
     font-weight: 600;
     font-size: 16px;
-    border: solid 3px #CA9451;
+    border: solid 3px #D3B95D;
     padding: 8px 16px;
     transition: 0.2s;
 }
 .nav-right a:hover{
-    background-color: #CA9451;
-    color: #FAF8F1;
+    background-color: #D3B95D;
+    color: #FCF5ED;
 }
 
 /* title */
@@ -81,7 +81,7 @@ nav{
 .title-container p{
     font-family: Playball;
     font-size: 40px;
-    color: #CA9451;
+    color: #D3B95D;
 }
 .title-container h1{
     font-family: Merriweather;
@@ -92,7 +92,7 @@ nav{
     margin-top: 50px;
 }
 .title-container a{
-    background-color: #CA9451;
+    background-color: #D3B95D;
     font-family: Noto Sans JP;
     color: #1E1911;
     font-size: 18px;
@@ -102,7 +102,7 @@ nav{
 }
 .title-container a:hover{
     background-color:transparent;
-    border: solid 3px #CA9451;
+    border: solid 3px #D3B95D;
     padding: 9px 19px;
 }
 
@@ -110,7 +110,7 @@ nav{
 
 .welcome{
     padding: 150px;
-    background-color: #F0DED2;
+    background-color: #ffffff;
 }
 .welcome-container{
     display: flex;
@@ -133,7 +133,7 @@ nav{
     font-size: 50px;
     font-family: Merriweather;
     color: #1E1911;
-    border-left: solid 6px #CA9451;
+    border-left: solid 6px #D3B95D;
     padding-left: 14px;
 }
 .welcome-text p{
@@ -148,7 +148,7 @@ nav{
 /* angebote */
 .angebote{
     position: relative;
-    background-color: #FAF8F1;
+    background-color: #FCF5ED;
     padding: 150px 0;
 }
 .angebote-header{
@@ -161,7 +161,7 @@ nav{
     font-family: Merriweather;
     color: #1E1911;
     margin-bottom: 100px;
-    border-left: solid 6px #CA9451;
+    border-left: solid 6px #D3B95D;
     padding-left: 14px;
 }
 .angebote-container{
@@ -213,7 +213,7 @@ nav{
 /* products */
 .product{
     position: relative;
-    background-color: #F0DED2;
+    background-color: #ffffff;
     padding: 150px 0;
 }
 .product h1{
@@ -221,7 +221,7 @@ nav{
     font-family: Merriweather;
     color: #1E1911;
     margin-bottom: 100px;
-    border-left: solid 6px #CA9451;
+    border-left: solid 6px #D3B95D;
     padding-left: 14px;
 }
 .product-container{
@@ -230,7 +230,7 @@ nav{
     margin: auto;
 }
 .product-slide{
-    background-color: #FAF8F1;
+    background-color: #FCF5ED;
     padding: 30px 60px;
 }
 .product-grid{
@@ -251,7 +251,7 @@ nav{
     color: #1E1911;
     font-family: Merriweather;
     font-size: 26px;
-    border-left: solid 3px #CA9451;
+    border-left: solid 3px #D3B95D;
     padding-left: 10px;
 }
 .product-text p{
@@ -271,8 +271,8 @@ nav{
 }
 .product-button button {
     background-color: transparent;
-    border: solid 2px #CA9451;
-    color: #CA9451;
+    border: solid 2px #D3B95D;
+    color: #D3B95D;
     padding: 16px 20px;
     border-radius: 100px;
     transition: background-color 0s, transform 0.2s;
@@ -283,15 +283,15 @@ nav{
 }
 
 .product-button button:active {
-    background-color: #CA9451;
-    color: #FAF8F1;
+    background-color: #D3B95D;
+    color: #FCF5ED;
 }
 /* team */
 
 .team{
     position: relative;
     padding: 150px 0;
-    background-color: #FAF8F1;
+    background-color: #FCF5ED;
 }
 .team-container{
     max-width: 1400px;
@@ -307,7 +307,7 @@ nav{
     font-size: 50px;
     font-family: Merriweather;
     color: #1E1911;
-    border-left: solid 6px #CA9451;
+    border-left: solid 6px #D3B95D;
     padding-left: 14px;
 }
 .team-grid{
@@ -333,7 +333,7 @@ nav{
     bottom: -31.75px;
 }
 .team-bg{
-    background-color: #CA9451;
+    background-color: #D3B95D;
     display: inline-block;
     padding: 10px;
 }
@@ -362,7 +362,7 @@ nav{
 
 .info{
     padding: 150px 0;
-    background-color: #F0DED2;
+    background-color: #ffffff;
 }
 .info-header{
     display: flex;
@@ -373,7 +373,7 @@ nav{
     font-size: 50px;
     font-family: Merriweather;
     color: #1E1911;
-    border-left: solid 6px #CA9451;
+    border-left: solid 6px #D3B95D;
     padding-left: 14px;
 }
 .info-container{
@@ -395,7 +395,7 @@ nav{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #FAF8F1;
+    background-color: #FCF5ED;
     text-align: center;
 }
 .open h1{
@@ -424,7 +424,7 @@ nav{
 }
 .open-time{
     padding-bottom: 10px;
-    border-bottom: #CA9451 solid 1px;
+    border-bottom: #D3B95D solid 1px;
 }
 .open-grid h3{
     color: #1E1911;
@@ -442,7 +442,7 @@ nav{
 /* footer */
 
 footer{
-    background-color: #FAF8F1;
+    background-color: #FCF5ED;
     padding: 100px 0;
 }
 .footer-container{
@@ -511,7 +511,7 @@ svg{
     font-size: 16px;
 }
 .impressum{
-    color: #CA9451;
+    color: #D3B95D;
     font-family: Noto Sans JP;
     font-size: 16px;
 }
